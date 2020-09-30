@@ -17,3 +17,9 @@ header {
   p {
       width: 200px;
   }
+  footer{
+      padding: 10px 16px;
+      background: #555;
+      color: #f1f1f1;
+      font-size: large;
+  }
