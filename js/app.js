@@ -90,12 +90,5 @@ for (let i = 0; i < rainBow.length; i++) {
 
 
 
-//for(i=0;i<5;i++){
-  //  if(guess2.toLowerCase() == 'red'){
-    //    alert('Correct! Nice Job.');
-      //  break;
-   // } else {
-     //   guess = prompt('Wrong, Try again.');
-   // } 
-// }
+
 
