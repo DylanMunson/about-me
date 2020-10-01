@@ -70,16 +70,32 @@ for(i=0;i<3;i++){
     }
 }
 
+var rainBow = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+var guess2 = prompt('What is my favorite color in the rainbow that is red? (orange, yellow, green, blue, or purple)');
+var i = 0;
+for (let i = 0; i < rainBow.length; i++) {
+     if(guess2.toLowerCase() == rainBow[i=4]){
+         alert('Correct! Nice Job');
+         break;
+     } if (guess2 !== rainBow) {
+         guess2 = prompt('Wrong, Try again!');
+     }
+    
+}
 
 
-// var favNumber = prompt('What is my favorite number?');
 
-//if(favNumber = 16) {
-//    alert('Nice Job!')
-// } 
-// if (favNumber < 16) {
-//    alert('Wrong, too low')
+
+
+
+
+
+//for(i=0;i<5;i++){
+  //  if(guess2.toLowerCase() == 'red'){
+    //    alert('Correct! Nice Job.');
+      //  break;
+   // } else {
+     //   guess = prompt('Wrong, Try again.');
+   // } 
 // }
-// if (favNumber > 16) {
-//    alert('Wrong, too high')
-// }
+
