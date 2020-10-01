@@ -51,7 +51,35 @@ if(favColor.toLowerCase() === 'yes' || favColor.toLowerCase() === 'y'){
 var myAge = prompt('Am I 17 years of age?');
 
 if(myAge.toLowerCase() === 'yes' || myAge.toLowerCase() === 'y'){
-    alert('Nice, ' + userName + '! You got the final question correct, thats all that really matters, right?')
+    alert('Nice, ' + userName + '!')
 } else {
-    alert('That is not correct, ' + userName + '. You got the final question wrong which means you really failed the whole quiz. Try again next time!')
+    alert('That is not correct, ' + userName + '.')
 }
+
+var favNumber = 16;
+var guess = prompt('What is my favorite number?');
+var i = 0;
+for(i=0;i<3;i++){
+    if(guess == favNumber){
+        alert('Correct! Nice Job.');
+        break;
+    } if (guess < 16) {
+        guess = prompt('Wrong, too low. Try again.');
+    } if (guess > 16) {
+        guess = prompt('Wrong, too high. Try again.');
+    }
+}
+
+
+
+// var favNumber = prompt('What is my favorite number?');
+
+//if(favNumber = 16) {
+//    alert('Nice Job!')
+// } 
+// if (favNumber < 16) {
+//    alert('Wrong, too low')
+// }
+// if (favNumber > 16) {
+//    alert('Wrong, too high')
+// }
